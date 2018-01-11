@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <link rel="stylesheet" href="style.css">
+
+	    <!-- import Canvas-to-SVG library -->
+	    <script src="canvas2svg.js"></script>
+	    <!-- define global svg context to be used in place of the canvas context -->
+	    <script src="define-svg-context.js"></script>
+	    <!-- import modified p5.js version that draws on the svg conext instead of the canvas context -->
+	    <script src="p5-svg-hack.js"></script>
+
+	</head>
+	<body>
+	</body>
+
+	<!-- draw using p5.js -->
+	<script src="sketch2.js"></script>
+	<!-- serialize the drawing as svg -->
+	<script src="serialize-svg.js"></script>
+
+</html>
